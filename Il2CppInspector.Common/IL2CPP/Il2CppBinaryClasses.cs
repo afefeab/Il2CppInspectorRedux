@@ -71,8 +71,7 @@ namespace Il2CppInspector
         [Version(Min = 31.1, Max = 31.1)]
         public ulong unresolvedInstanceCallPointers;
 
-        [Version(Min = 29.1, Max = 29.1)]
-        [Version(Min = 31.1, Max = 31.1)]
+        [Version(Min = 29.1)]
         public ulong unresolvedStaticCallPointers;
 
         // Added in metadata v23
